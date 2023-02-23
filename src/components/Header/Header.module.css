@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FF6060;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.link:first-child {
+    margin-right: 30px;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
