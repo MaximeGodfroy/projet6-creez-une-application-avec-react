@@ -13,7 +13,7 @@ export default function Collapse({titre, description}) {
     return (
         <div className={styles.collapse}>
             <div className={styles.banniereCollapse} onClick={() => handleVectorClick()}>
-                <h2 className={styles.titreCollapse}>{titre}</h2>
+                <p className={styles.titreCollapse}>{titre}</p>
                 {vector ? <img src={vectorClosed} alt='icone fleche fermee' className={styles.img}/> : <img src={vectorOpen} alt='icone fleche ouverte' className={styles.img} />}
             </div>
             {vector && (<div className={styles.description}>
