@@ -1,0 +1,22 @@
+.error {
+    text-align: center;
+    margin: 0 100px 50px 100px;
+    color: #FF6060;
+}
+
+.alert404 {
+    font-size: 288px;
+    font-weight: 700;
+    margin: 0 0 65px 0;
+}
+
+.description {
+    margin: 0 0 180px 0;
+    font-size: 36px;
+}
+
+a {
+    color: #FF6060;
+}
+
+

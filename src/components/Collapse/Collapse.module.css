@@ -1,0 +1,31 @@
+.collapse {
+    margin-bottom: 30px;
+}
+
+.banniereCollapse {
+    background-color: #FF6060;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 45px;
+}
+
+.titreCollapse {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.description {
+    background-color: #F6F6F6;
+    padding: 30px 25px 20px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #FF6060;
+}
+
+.img {
+    height: 15px;
+}
