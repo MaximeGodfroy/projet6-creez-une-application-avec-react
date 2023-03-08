@@ -1,9 +1,5 @@
 .flatSheet {
-    margin: 0 100px 0 100px;
-}
-
-.imgCover {
-    max-width: 100%;
+    margin: 0 100px;
 }
 
 .titleAndHost {
@@ -87,7 +83,26 @@
     margin-right: 50px;
 }
 
-@media all and (min-width: 501px) and (max-width: 880px) {
+.titreCollapse {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.description {
+    margin: 0;
+    background-color: #F6F6F6;
+    padding: 25px 25px 20px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #FF6060;
+}
+
+.description p {
+    margin: 0;
+}
+
+@media all and (min-width: 716px) and (max-width: 880px) {
     .titleAndTags {
         max-width: 60%;
     }
@@ -97,12 +112,79 @@
     }
 }
 
-@media all and (min-width: 376px) and (max-width: 725px) {
+@media all and (max-width: 715px) {
+    .titleAndHost {
+        flex-direction: column;
+    }
+
     .titleAndTags {
-        max-width: 50%;
+        max-width: 100%;
+    }
+
+    .tag {
+        width: 100%;
     }
     
-    .tag {
-        width: 160px;
+    .hostAndStars {
+        flex-direction: row-reverse;
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .host {
+        max-width: 40%;
+    }
+
+    .titreCollapse {
+        font-size: 16px;
+    }
+
+    .collapses {
+        flex-direction: column;
+    }
+
+    .collapse1 {
+        margin-right: 0;
+    }
+
+}
+
+.flatSheet {
+    margin: 0 100px 0 100px;
+}
+
+@media all and (min-width: 376px) and (max-width: 550px) {
+    .flatSheet {
+        margin: 0 50px 50px 50px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .h1 {
+        font-size: 18px;
+    }
+
+    .h2 {
+        font-size: 14px;
+    }
+
+    .h3 {
+        font-size: 10px;
+        width: 100px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .flatSheet {
+        margin: 0 20px;
+    }
+
+    .h4 {
+        font-size: 12px;
+    }
+
+    .portrait {
+        width: 32px;
+        height: 32px;
     }
 }

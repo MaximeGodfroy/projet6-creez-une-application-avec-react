@@ -1,0 +1,49 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementsCarousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures {
+    height: 415px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.arrow1, .arrow2 {
+    height: 60px;
+}
+
+.arrow1 {
+    position: absolute;
+    left: 2%;
+    top: 42%;
+}
+
+.arrow2 {
+    position: absolute;
+    right: 2%;
+    top: 42%;
+}
+
+.arrow1:hover, .arrow2:hover {
+    cursor: pointer;
+    height: 70px;
+    top: 41%;
+}
+
+.numberPictures {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 18px;
+    bottom: 0%;
+    left: 47%;
+}

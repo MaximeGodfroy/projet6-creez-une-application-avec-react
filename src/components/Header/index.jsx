@@ -4,21 +4,20 @@ import { Link, NavLink } from 'react-router-dom'
 
 export default function Header() {
 
-
-    return (
-        <header className={styles.header}>
-          <Link to="/">
-        <img src={logo} alt='logo'/>
+  return (
+    <header className={styles.header}>
+      <Link className={styles.divLogo} to="/">
+        <img className={styles.logo} src={logo} alt='logo' />
       </Link>
-          <nav className={styles.nav}>
-        <NavLink to="/" className={({isActive}) => (isActive ? `${styles.link} ${styles.linkActive}` : `${styles.link}`)} >
-          Accueil
+      <nav className={styles.nav}>
+        <NavLink to="/" className={({ isActive }) => (isActive ? `${styles.link} ${styles.linkActive}` : `${styles.link}`)} >
+          <span className={styles.desktop}>Accueil</span><span className={styles.mobile}>ACCUEIL</span>
         </NavLink>
-        <NavLink to="/about" className={({isActive}) => (isActive ? `${styles.link} ${styles.linkActive}` : `${styles.link}`)}>
-          A Propos
+        <NavLink to="/about" className={({ isActive }) => (isActive ? `${styles.link} ${styles.linkActive}` : `${styles.link}`)}>
+          <span className={styles.desktop}>A propos</span><span className={styles.mobile}>A PROPOS</span>
         </NavLink>
-      </nav>  
-        </header>
-        
-    )
+      </nav>
+    </header>
+
+  )
 }
