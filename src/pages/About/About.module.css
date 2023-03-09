@@ -27,6 +27,10 @@
     color: #FF6060;
 }
 
+.description p {
+    margin: 0;
+}
+
 @media all and (min-width: 376px) and (max-width: 550px) {
     .about{
         margin: 0 50px;
