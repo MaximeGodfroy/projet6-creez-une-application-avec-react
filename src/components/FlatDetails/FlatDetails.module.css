@@ -1,7 +1,3 @@
-.flatSheet {
-    margin: 0 100px;
-}
-
 .titleAndHost {
     display: flex;
     justify-content: space-between;
@@ -70,38 +66,6 @@
     margin-left: 10px;
 }
 
-.collapses {
-    display: flex;
-    justify-content: space-between;
-}
-
-.collapse1, .collapse2 {
-    flex: 1;
-}
-
-.collapse1 {
-    margin-right: 50px;
-}
-
-.titreCollapse {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.description {
-    margin: 0;
-    background-color: #F6F6F6;
-    padding: 25px 25px 20px 20px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: #FF6060;
-}
-
-.description p {
-    margin: 0;
-}
-
 @media all and (min-width: 716px) and (max-width: 880px) {
     .titleAndTags {
         max-width: 60%;
@@ -134,27 +98,10 @@
     .host {
         max-width: 40%;
     }
-
-    .collapses {
-        flex-direction: column;
-    }
-
-    .collapse1 {
-        margin-right: 0;
-    }
-
 }
 
 @media all and (min-width: 376px) and (max-width: 550px) {
-    .flatSheet {
-        margin: 0 50px 50px 50px;
-    }
-
     .h4 {
-        font-size: 16px;
-    }
-    
-    .titreCollapse {
         font-size: 16px;
     }
 }
@@ -175,16 +122,8 @@
 }
 
 @media all and (max-width: 375px) {
-    .flatSheet {
-        margin: 0 20px;
-    }
-
     .h4 {
         font-size: 12px;
-    }
-
-    .titreCollapse {
-        font-size: 14px;
     }
 
     .portrait {

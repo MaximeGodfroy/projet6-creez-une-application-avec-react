@@ -1,0 +1,54 @@
+.collapses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapse1, .collapse2 {
+    flex: 1;
+}
+
+.collapse1 {
+    margin-right: 50px;
+}
+
+.titreCollapse {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.description {
+    margin: 0;
+    background-color: #F6F6F6;
+    padding: 25px 25px 20px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #FF6060;
+}
+
+.description p {
+    margin: 0;
+}
+
+@media all and (max-width: 715px) {
+    .collapses {
+        flex-direction: column;
+    }
+
+    .collapse1 {
+        margin-right: 0;
+    }
+
+}
+
+@media all and (min-width: 376px) and (max-width: 550px) {
+    .titreCollapse {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .titreCollapse {
+        font-size: 14px;
+    }
+}
