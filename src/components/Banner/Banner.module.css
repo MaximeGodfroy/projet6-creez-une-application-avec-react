@@ -1,0 +1,14 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 0 0 40px 0;
+    position: relative;
+}
+
+@media all and (max-width: 375px) {
+    .banner {
+        border-radius: 10px;
+    }
+}

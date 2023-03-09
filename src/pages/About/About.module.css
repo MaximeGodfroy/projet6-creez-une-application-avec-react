@@ -1,0 +1,44 @@
+.about {
+    margin: 0 100px;
+}
+
+.img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    height: 220px;
+}
+
+.valeurs {
+    width: 80%;
+    margin: auto;
+}
+
+.titreCollapse {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.description {
+    background-color: #F6F6F6;
+    padding: 30px 25px 20px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #FF6060;
+}
+
+@media all and (min-width: 376px) and (max-width: 550px) {
+    .about{
+        margin: 0 50px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .about {
+        margin: 0 20px 0 20px;
+    }
+    
+    .img {
+        border-radius: 10px;
+    }
+}
