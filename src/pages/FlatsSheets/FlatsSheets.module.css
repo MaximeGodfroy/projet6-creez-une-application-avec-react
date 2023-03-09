@@ -135,10 +135,6 @@
         max-width: 40%;
     }
 
-    .titreCollapse {
-        font-size: 16px;
-    }
-
     .collapses {
         flex-direction: column;
     }
@@ -156,6 +152,14 @@
 @media all and (min-width: 376px) and (max-width: 550px) {
     .flatSheet {
         margin: 0 50px 50px 50px;
+    }
+
+    .h4 {
+        font-size: 16px;
+    }
+    
+    .titreCollapse {
+        font-size: 16px;
     }
 }
 
@@ -181,6 +185,10 @@
 
     .h4 {
         font-size: 12px;
+    }
+
+    .titreCollapse {
+        font-size: 14px;
     }
 
     .portrait {
