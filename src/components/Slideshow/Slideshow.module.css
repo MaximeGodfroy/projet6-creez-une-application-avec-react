@@ -9,12 +9,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 415px;
 }
 
 .pictures {
-    height: 415px;
     object-fit: cover;
-    max-width: 100%;
+    height: 415px;
+    width: 100%;
     border-radius: 25px;
 }
 
@@ -46,4 +48,10 @@
     font-size: 18px;
     bottom: 0%;
     left: 47%;
+}
+
+@media all and (max-width: 375px) {
+    .pictures {
+        height: 255px;
+    }
 }

@@ -44,6 +44,7 @@
     }
 
     .img {
+        height: 110px;
         border-radius: 10px;
     }
 }
